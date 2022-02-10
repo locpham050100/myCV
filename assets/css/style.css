@@ -140,15 +140,18 @@ body.scale-cv{
 
 .scale-cv .education_container,
 .scale-cv .experience_container,
+.scale-cv .products_container,
 .scale-cv .certificate_container {
     gap: 1rem;
 }
 .scale-cv .education_time,
+.scale-cv .products_time,
 .scale-cv .experience_time {
     padding-right: .5rem;
 }
 
 .scale-cv .education_rounder,
+.scale-cv .products_rounder,
 .scale-cv .experience_rounder {
     width: 11px;
     height: 11px;
@@ -156,6 +159,7 @@ body.scale-cv{
 }
 
 .scale-cv .education_line,
+.scale-cv .products_line,
 .scale-cv .experience_line {
  width: 1px;
  height: 100%;
@@ -163,6 +167,7 @@ body.scale-cv{
 }
 
 .scale-cv .education_data,
+.scale-cv .products_data,
 .scale-cv .experience_data  {
     gap: .25rem;
 }
@@ -207,7 +212,7 @@ img {
 
 /* ===== CLASS CSS ===== */
 .section {
-    padding: 1.5rem 0;
+    padding: 1.41rem 0;
 }
 
 .section-title {
@@ -406,17 +411,20 @@ img {
 
 /* ===== EDUCATION AND EXPERIENCE ===== */
 .education_content,
-.experience_content {
+.experience_content,
+.products_content {
     display: flex;
 }
 
 .education_time,
-.experience_time {
+.experience_time,
+.products_time {
     padding-right: 1rem;
 }
 
 .education_rounder,
-.experience_rounder {
+.experience_rounder,
+.products_rounder {
     position: relative;
     display: block;
     width: 16px;
@@ -427,27 +435,37 @@ img {
 }
 
 .education_line,
-.experience_line {
+.experience_line,
+.products_line {
     display: block;
     width: 2px;
     height: 100%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
 }
-.education_date,
+.education_data,
 .experience_data {
-    gap: .5rem;
+    gap: .25rem;
 }
 
 .education_title,
-.experience_title {
+.experience_title,
+.products_title {
     font-size: var(--h3-font-size);
 }
 
 .education_studies,
-.education_company {
+.education_company{
     font-size: var(--small-font-size);
     color: var(--title-color);
+}
+
+.products_data {
+    gap: .2rem;
+}
+
+.products_link {
+    padding-bottom: 0.25rem;
 }
 
 .education_year {
