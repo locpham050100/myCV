@@ -107,10 +107,10 @@ body.scale-cv {
   max-width: 595px;
 }
 .scale-cv .section {
-  padding: 1.27rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 .scale-cv .section-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .scale-cv .resume_left,
@@ -220,7 +220,11 @@ img {
 
 /* ===== CLASS CSS ===== */
 .section {
-  padding: 1.41rem 0;
+  padding: 1.4rem 0;
+}
+
+.section-right {
+  padding: 0 0 1.4rem 0;
 }
 
 .section-title {
@@ -231,6 +235,10 @@ img {
   letter-spacing: 0.35rem;
   text-align: center;
   margin-bottom: var(--mb-3);
+}
+
+.section-title-right {
+  margin-bottom: var(--mb-1);
 }
 
 /* ===== LAYOUT ===== */
