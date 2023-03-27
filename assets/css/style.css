@@ -224,7 +224,11 @@ img {
 }
 
 .section-right {
-  padding: 0 0 1.4rem 0;
+  padding: 0 0 1rem 0;
+}
+
+.section-right-goals {
+  padding-top: 1.4rem;
 }
 
 .section-title {
