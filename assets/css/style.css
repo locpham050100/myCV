@@ -497,13 +497,13 @@ img {
   gap: 0.2rem;
 }
 
-.products_link {
+/* .products_link {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 0.8rem;
   padding-bottom: 0.25rem;
-}
-.product_description {
+} */
+/* .product_description {
   border: 2px solid var(--text-color);
   color: var(--title-color);
   padding: 0.2rem 0.8rem;
@@ -512,7 +512,7 @@ img {
   font-weight: var(--font-medium);
   margin-left: 2rem;
   margin-top: -0.2rem;
-}
+} */
 
 .product_description:hover {
   background-color: var(--text-color);
